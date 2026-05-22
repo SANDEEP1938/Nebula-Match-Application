@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Nebula Match",
+    "slug": "nebula-match",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "nebulamatch",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0b0f1f",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#0b0f1f"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sandeep.nebulamatch",
+      "backgroundColor": "#0b0f1f"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0b0f1f"
+      },
+      "package": "com.sandeep.nebulamatch",
+      "backgroundColor": "#0b0f1f"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#0b0f1f"
+        }
+      ]
+    ]
+  }
+}
